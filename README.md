@@ -20,6 +20,10 @@ Website booking form → n8n webhook → field normalization → Google Sheets /
 
 The AI returns structured Hot / Warm / Cold classification. Enquiries without a comment default to Warm.
 
+## Workflow
+
+[![n8n workflow](workflow.png)](workflow.png)
+
 ## Results
 
 - **Automated data entry across four services:** lead information goes to Google Sheets, Zoho CRM and Klaviyo, with a Telegram notification to the manager, without manual copying in the designed flow.
@@ -43,3 +47,4 @@ n8n, OpenRouter, Structured Output Parser, Zoho CRM API, Klaviyo API, Telegram B
 **Pavlo Holnyk — AI Automation & AI Agents**
 
 [Portfolio](https://tangy-whitefish-6d0.notion.site/408c12839d06816f9e61ff1aa7392587) · [LinkedIn](https://www.linkedin.com/in/pavlo-holnyk/) · [Upwork](https://www.upwork.com/freelancers/~011ee82fd5725aa92e)
+
